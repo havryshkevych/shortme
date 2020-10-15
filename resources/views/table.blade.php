@@ -22,7 +22,7 @@
                         <td><a href="/{{$data->slug}}" target="_blank">{{ $data->slug }}</a></td>
                         <td>{{ $data->visits }}</td>
                         <td>{{ $data->created_at ? $data->created_at->diffForHumans() : ''}}</td>
-                        <td>{{ $data->deleted_at ? $data->deleted_at->diffForHumans() : 'never'}}</td>
+                        <td>{{ $data->deleted_at ? $data->deleted_at->diffForHumans() : ($data->delete_at ? $data->delete_at->diffForHumans() : 'never')}}</td>
                     </tr>
                 @endforeach
                 </tbody>
