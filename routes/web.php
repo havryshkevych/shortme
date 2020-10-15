@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LinkController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [LinkController::class, 'create'])->name('home');
+Route::get('table', [LinkController::class, 'index'])->name('table');
+Route::post('store', [LinkController::class, 'store'])->name('store');
+
+Route::get('{link:slug}', [LinkController::class, 'redirect']);
