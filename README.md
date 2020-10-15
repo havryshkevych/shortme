@@ -3,5 +3,3 @@
 ## About ShortMe
 
 Simple Url shortener
-
-![](https://s8.gifyu.com/images/shortme.gif)
