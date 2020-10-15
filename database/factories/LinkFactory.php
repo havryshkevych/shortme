@@ -23,7 +23,7 @@ class LinkFactory extends Factory
     {
         return [
             'url' => $this->faker->url,
-            'delete_at' => $this->faker->dateTimeBetween('now','+1 month'),
+            'delete_at' => $this->faker->dateTimeBetween('-1 month','+1 month'),
         ];
     }
 }
