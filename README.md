@@ -3,4 +3,4 @@
 ## About ShortMe
 
 Simple Url shortener
-![](https://wdfiles.ru/plugins/imageviewer/site/direct.php?s=joO1&/shortme.gif)
+![](https://wdfiles.ru/plugins/imageviewer/site/thumb.php?s=joO1&/shortme.gif)
