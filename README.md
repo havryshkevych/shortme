@@ -4,4 +4,4 @@
 
 Simple Url shortener
 
-![](https://media.giphy.com/media/b8GVBU0BWnOq3Il0Ce/giphy.gif)
+![](https://s8.gifyu.com/images/shortme.gif)
